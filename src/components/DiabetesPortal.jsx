@@ -513,7 +513,7 @@ const DiabetesPortal = () => {
                                 <div className="space-y-2">
                                   <label className="block text-sm font-medium text-gray-700 flex items-center">
                                     hbA1c Percentage
-                                    <span className="ml-auto text-xs text-gray-500">Normal: 5.7-6.4%</span>
+                                    <span className="ml-auto text-xs text-gray-500">Normal: 4-5.7%</span>
                                   </label>
                                   <div className="relative group">
                                     <input
