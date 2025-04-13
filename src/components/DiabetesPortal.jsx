@@ -59,7 +59,7 @@ const DiabetesPortal = () => {
           if (age > 120) {
             alert("age must be under 120")
           }
-        if (hbA1c < 6.5)
+        if (hbA1c > 5.6)
         {
             score +=4
         }
@@ -513,7 +513,7 @@ const DiabetesPortal = () => {
                                 <div className="space-y-2">
                                   <label className="block text-sm font-medium text-gray-700 flex items-center">
                                     hbA1c Percentage
-                                    <span className="ml-auto text-xs text-gray-500">Normal: 4-5.6%</span>
+                                    <span className="ml-auto text-xs text-gray-500">Normal: 5.7-6.4%</span>
                                   </label>
                                   <div className="relative group">
                                     <input
