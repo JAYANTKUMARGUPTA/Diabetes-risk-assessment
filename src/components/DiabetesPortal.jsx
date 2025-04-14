@@ -627,16 +627,16 @@ const DiabetesPortal = () => {
                           {/* Risk Level Indicator */}
                           <div className="relative">
                             <div className={`${riskLevel.color} text-white p-8 rounded-2xl shadow-lg transform transition-all duration-500 hover:scale-105`}>
-                              <p className="text-sm font-medium uppercase tracking-wider">Your Risk Level</p>
-                              <p className="text-4xl font-bold mt-2">{riskLevel.level}</p>
+                              <p className="text-sm font-medium uppercase tracking-wider text-white">Your Risk Level</p>
+                              <p className="text-4xl font-bold mt-2 text-white">{riskLevel.level}</p>
                               <div className="mt-4">
                                 <div className="w-full bg-white bg-opacity-20 rounded-full h-2.5">
                                   <div 
-                                    className="bg-white h-2.5 rounded-full" 
+                                    className="bg-blue-600 h-2.5 rounded-full text-white" 
                                     style={{ width: `${riskLevel.percentage}%` }}
                                   ></div>
                                 </div>
-                                <p className="text-sm font-medium mt-2">{riskLevel.percentage}% Risk Score</p>
+                                <p className="text-sm font-medium mt-2 text-">{riskLevel.percentage}% Risk Score</p>
                               </div>
                             </div>
                             
